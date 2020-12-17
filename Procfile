@@ -1,1 +1,1 @@
-web: python3 app:blockchain
+web: python3 blockchain.py
