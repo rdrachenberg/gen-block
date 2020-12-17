@@ -1,1 +1,1 @@
-web: gunicorn app:blockchain
+web: python3 app:blockchain
