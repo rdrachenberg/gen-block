@@ -5,7 +5,13 @@ worked off of this [tutorial](https://hackernoon.com/learn-blockchains-by-buildi
 ## Python 3.9.1 required
 
 ## Dependancies
-hashlib, json, time, urllib.parse, uuid, request, Flask
+* hashlib
+* json
+* time
+* urllib.parse
+* uuid
+* request
+* Flask
 
 ## Installation
 

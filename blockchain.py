@@ -4,7 +4,7 @@ from time import time
 from urllib.parse import urlparse
 from uuid import uuid4
 import requests
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 
 
 class Blockchain(object):
@@ -132,6 +132,9 @@ node_identifier = str(uuid4()).replace('-', '')
 # Start the blockchain
 blockchain = Blockchain()
 
+@app.route('/', methods=["GET"])
+def home():
+    return render_template('home.html')
 
 @app.route('/mine', methods=["GET"])
 def mine():
