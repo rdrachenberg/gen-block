@@ -1,4 +1,3 @@
+~equests==2.25.0
 Flask==1.1.2
-~requests==2.25.0
 Requests==2.25.1
-gunicorn
